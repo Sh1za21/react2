@@ -1,0 +1,26 @@
+
+@use "./variables.scss" as *;
+
+
+.header {
+    background: #141414;
+}
+
+.header__nav {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.header__nav-list_item-link {
+    font-family: $MainFont;
+    font-weight: 500;
+    font-size: 16px;
+    color: #F0F0F0;
+}

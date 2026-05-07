@@ -1,0 +1,29 @@
+$Montserrat: (
+    "Medium",
+    500),
+    ("SemiBold", 600),
+    ("Bold", 700),
+    ("ExtraBold", 800
+);
+$Fustat: (
+    "Medium",
+    500
+);
+
+@each $name, $weight in $Montserrat {
+    @font-face {
+        font-family: "Montserrat";
+        src: url("../fonts/Montserrat/Montserrat-#{$name}.ttf");
+        font-weight: $weight;
+    }
+}
+
+;
+
+@each $name, $weight in $Fustat {
+    @font-face {
+        font-family: "Montserrat";
+        src: url("../fonts/Fustat/Fustat-#{$name}.ttf");
+        font-weight: $weight;
+    }
+}
