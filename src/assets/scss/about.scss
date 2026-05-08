@@ -1,0 +1,33 @@
+@use "./variables.scss" as *;
+
+
+
+.about__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about__title {
+    font-family: $MainFont;
+    font-weight: 700;
+    font-size: 40px;
+    color: #EB3A13;
+}
+
+.about__desc {
+    font-family: $MainFont;
+    font-weight: 500;
+    font-size: 20px;
+    color: #F0F0F0;
+    margin-bottom: 152px;
+
+}
+
+.about {
+    margin-bottom: 120px;
+}
+
+.about__img img {
+    width: 100%;
+}

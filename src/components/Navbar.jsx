@@ -1,4 +1,4 @@
-import { logoIcon } from "../utils/images"
+import { logoIcon } from "../utils/images";
 
 
 const Navbar = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
             <header className='header'>
                 <div className="container">
                     <div className="header__nav">
-                        <a href="#" className="header__nav-logo"><img src="{logoIcon}" alt="" /></a>
+                        <a href="#" className="header__nav-logo"><img src={logoIcon} alt="" /></a>
                         <ul className="header__nav-list">
                             <li className="header__nav-list_item">
                                 <a href="#" className="header__nav-list_item-link">HOME PAGE</a>

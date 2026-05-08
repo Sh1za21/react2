@@ -1,0 +1,46 @@
+@use "./variables.scss" as *;
+
+.car__wrap {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.car__left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 540px;
+    width: 100%;
+}
+
+.car__left-title {
+    font-family: $MainFont;
+    font-weight: 700;
+    font-size: 40px;
+    color: #EB3A13;
+
+}
+
+.car___left-desc {
+    font-family: $MainFont;
+    font-weight: 500;
+    font-size: 20px;
+    color: #F0F0F0;
+
+}
+
+.car__right {
+
+    max-width: 540px;
+    width: 100%;
+}
+
+.car__right img {
+    width: 100%;
+}
+
+.car {
+    margin-bottom: 164px;
+}

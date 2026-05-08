@@ -1,0 +1,71 @@
+@use "./variables.scss" as *;
+
+
+footer {
+    padding: 38px 62px;
+    background: #1F1F1F;
+}
+
+.fooer__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav-form {
+    display: flex;
+    max-width: 350px;
+    width: 100%;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.footer__nav-form_input {
+    border: none;
+    outline: none;
+    background: none;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #F0F0F0;
+    font-family: "Fustat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #F0F0F0;
+}
+
+.footer__nav-form_btn {
+    border: none;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 22px;
+    color: #F0F0F0;
+    background: linear-gradient(93.34deg, #FFA600 0%, #E41818 100%);
+}
+
+.footer__nav-right {
+    display: flex;
+    gap: 52px;
+    align-items: flex-start;
+}
+
+.footer__nav-list {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.footer__nav-list_title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #F0F0F0;
+}
+
+.footer__nav-list_item-link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #F0F0F0;
+}

@@ -1,0 +1,42 @@
+@use "./variables.scss" as *;
+
+.banner {
+    background: url(../img/bg.png) no-repeat center bottom / cover;
+    height: 748px;
+    margin-bottom: 114px;
+}
+
+.banner__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner__title {
+    font-family: $MainFont;
+    font-weight: 600;
+    font-size: 140px;
+    color: #B31D1E;
+}
+
+.banner__link {
+    display: inline-block;
+    max-width: 265px;
+    width: 100%;
+    padding: 18px 94px;
+    text-align: center;
+    background: linear-gradient(93.34deg, #FFA600 0%, #E41818 100%);
+    color: #141414;
+    border-radius: 4px;
+    font-family: $MainFont;
+    font-weight: 800;
+    font-size: 24px;
+    transition: 0.45s;
+}
+
+.banner__link:hover {
+    background: linear-gradient(93.34deg, #E41818 0%, #FFA600 100%);
+    color: #F0F0F0;
+}
